@@ -1,0 +1,35 @@
+{
+  "emotion": {
+    "tags": ["style"]
+  },
+  "jss": {
+    "tags": ["style"]
+  },
+  "styled-components": {
+    "tags": ["style"]
+  },
+  "react-typist": {
+    "tags": ["animation", "typography"]
+  },
+  "react-text-loop": {
+    "tags": ["animation", "typography"]
+  },
+  "antd": {
+    "tags": ["library"]
+  },
+  "@material-ui/core": {
+    "tags": ["library"]
+  },
+  "react-player": {
+    "tags": ["video"]
+  },
+  "video-react": {
+    "tags": ["video"]
+  },
+  "react-pose": {
+    "tags": ["animation"]
+  },
+  "react-move": {
+    "tags": ["animation"]
+  }
+}
