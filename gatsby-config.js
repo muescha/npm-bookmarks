@@ -9,7 +9,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-source-apiserver`,
+      resolve: `@cardiv/gatsby-source-apiserver`,
       options: {
         typePrefix: `npm__`,
         url: `https://api.npms.io/v2/package/mget`,
