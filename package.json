@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "npm.cardiv.de",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Personal NPM bookmark site.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Carsten Jaksch <jaksch.carsten@gmail.com>",
   "dependencies": {
     "@cardiv/gatsby-source-apiserver": "^2.1.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
@@ -28,7 +28,9 @@
     "styled-normalize": "^8.0.4"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "react",
+    "npm"
   ],
   "license": "MIT",
   "scripts": {
@@ -43,9 +45,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/cardiv/npm.cardiv.de"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/cardiv/npm.cardiv.de/issues"
   }
 }
