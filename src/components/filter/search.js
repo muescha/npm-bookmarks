@@ -9,7 +9,7 @@ class Search extends Component {
   }
 
   handleChange = event => {
-    const value = event.target.value
+    const value = event.target.value.toLowerCase()
 
     this.setState({
       value: value,

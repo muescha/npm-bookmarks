@@ -8,6 +8,7 @@ const Input = styled.input`
   border-bottom-color: ${props => props.theme.mainColor};
   color: #333;
   background: #fcfcfc;
+  border-radius: 0;
 `
 
 export { Input }
