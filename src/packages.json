@@ -32,7 +32,7 @@
   "react-move": {
     "tags": ["animation"]
   },
-  "react-apexcharts": {
+  "apexcharts": {
     "tags": ["animation", "chart"]
   },
   "recharts": {
