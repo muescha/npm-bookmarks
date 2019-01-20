@@ -31,5 +31,11 @@
   },
   "react-move": {
     "tags": ["animation"]
+  },
+  "react-apexcharts": {
+    "tags": ["animation", "chart"]
+  },
+  "recharts": {
+    "tags": ["animation", "chart"]
   }
 }
