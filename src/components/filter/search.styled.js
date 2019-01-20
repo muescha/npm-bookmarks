@@ -9,6 +9,7 @@ const Input = styled.input`
   color: #333;
   background: #fcfcfc;
   border-radius: 0;
+  -webkit-appearance: none;
 `
 
 export { Input }
