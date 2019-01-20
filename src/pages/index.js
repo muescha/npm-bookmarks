@@ -9,7 +9,10 @@ import packages from '../packages.json'
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO
+      title="Packages"
+      keywords={[`gatsby`, `application`, `react`, `npm`]}
+    />
     <Packages packages={packages} edges={data.allNpmPackages.edges} />
   </Layout>
 )

@@ -112,8 +112,7 @@ const ItemAnalyzed = styled.div`
 
   & > svg {
     color: #666;
-    font-size: 0.8em;
-    top: -1px;
+    width: 0.8em !important;
   }
 `
 
