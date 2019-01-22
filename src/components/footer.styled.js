@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const Credits = styled.footer`
   padding: 24px 0 40px;
   color: #666;
@@ -8,9 +10,13 @@ const Credits = styled.footer`
   font-style: italic;
 
   & > a {
-    color: ${props => props.theme.gatsbyColor};
+    color: ${props => props.theme.mainColor};
     border-bottom: 1px solid transparent;
     text-decoration: none !important;
+  }
+
+  & > a.gatsby {
+    color: ${props => props.theme.gatsbyColor};
   }
 
   & > a:hover,
@@ -25,4 +31,8 @@ const GatsbyIcon = styled(Img)`
   margin: 0 1px;
 `
 
-export { Credits, GatsbyIcon }
+const Icon = styled(FontAwesomeIcon)`
+  margin-right: 2px;
+`
+
+export { Credits, GatsbyIcon, Icon }

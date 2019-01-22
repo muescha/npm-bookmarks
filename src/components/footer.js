@@ -1,7 +1,9 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
-import { Credits, GatsbyIcon } from './footer.styled'
+import { faFontAwesomeFlag, faGithub } from '@fortawesome/free-brands-svg-icons'
+
+import { Credits, GatsbyIcon, Icon } from './footer.styled'
 
 const Footer = () => (
   <StaticQuery
@@ -18,15 +20,35 @@ const Footer = () => (
     `}
     render={data => (
       <Credits>
-        &copy; {new Date().getFullYear()}, Built with
+        Project by{' '}
+        <a
+          href="https://github.com/cardiv"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon icon={faGithub} />
+          cardiv
+        </a>{' '}
+        | Built with
         {` `}
         <a
+          className="gatsby"
           href="https://www.gatsbyjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           <GatsbyIcon fixed={data.file.childImageSharp.fixed} />
           Gatsby
+        </a>{' '}
+        |{` `}
+        Icons by{' '}
+        <a
+          href="https://fontawesome.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Icon icon={faFontAwesomeFlag} />
+          FontAwesome
         </a>
       </Credits>
     )}
