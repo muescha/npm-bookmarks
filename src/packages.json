@@ -37,5 +37,17 @@
   },
   "recharts": {
     "tags": ["animation", "chart"]
+  },
+  "styled-icons": {
+    "tags": ["icon"]
+  },
+  "@fortawesome/react-fontawesome": {
+    "tags": ["icon"]
+  },
+  "react-slick": {
+    "tags": ["carousel"]
+  },
+  "rc-menu": {
+    "tags": ["menu"]
   }
 }
