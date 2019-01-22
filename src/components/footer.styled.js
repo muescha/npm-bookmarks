@@ -33,6 +33,7 @@ const GatsbyIcon = styled(Img)`
 
 const Icon = styled(FontAwesomeIcon)`
   margin-right: 2px;
+  width: 0.8em !important;
 `
 
 export { Credits, GatsbyIcon, Icon }
