@@ -39,10 +39,10 @@
     "tags": ["animation", "chart"]
   },
   "styled-icons": {
-    "tags": ["icon"]
+    "tags": ["icon", "library"]
   },
   "@fortawesome/react-fontawesome": {
-    "tags": ["icon"]
+    "tags": ["icon", "library"]
   },
   "react-slick": {
     "tags": ["carousel"]
