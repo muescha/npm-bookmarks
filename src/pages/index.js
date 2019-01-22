@@ -6,6 +6,7 @@ import SEO from '../components/seo'
 import Packages from '../components/packages/list'
 
 import packages from '../packages.json'
+import sort from '../utils/sort'
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -13,7 +14,7 @@ const IndexPage = ({ data }) => (
       title="Packages"
       keywords={[`gatsby`, `application`, `react`, `npm`]}
     />
-    <Packages packages={packages} edges={data.allNpmPackages.edges} />
+    <Packages packages={packages} edges={sort(data.allNpmPackages.edges)} />
   </Layout>
 )
 
