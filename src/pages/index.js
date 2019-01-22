@@ -21,7 +21,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    allNpmPackages {
+    allNpmPackages(filter: { analyzedAt: { ne: null } }) {
       edges {
         node {
           id

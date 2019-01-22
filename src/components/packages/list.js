@@ -48,8 +48,6 @@ class List extends Component {
         <Search onSearch={this.handleSearch} />
         <PackageList>
           {edges.map(({ node }, i, edges) => {
-            if (edges.length - 1 === i) return false
-
             const name = node.collected.metadata.name
             const tags = _.map(packages[name])[0]
             const show =
