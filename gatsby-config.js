@@ -8,6 +8,7 @@ module.exports = {
     packages: packages,
   },
   plugins: [
+    `gatsby-plugin-netlify`,
     {
       resolve: `@cardiv/gatsby-source-apiserver`,
       options: {
