@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain.
+https://agitated-raman-79ba02.netlify.com/* https://npm.cardiv.de/:splat 301!
