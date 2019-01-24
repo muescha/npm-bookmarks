@@ -22,7 +22,7 @@ Some highlights:
 
 ## TODO
 
-- [ ] Sorting by download count
+- [X] Sorting by download count
 - [ ] Refresh single package data in browser
 
 ## Deploy
