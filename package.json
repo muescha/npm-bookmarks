@@ -1,5 +1,5 @@
 {
-  "name": "NPM Bookmarks",
+  "name": "npm-bookmarks",
   "private": true,
   "description": "Personal NPM bookmark site.",
   "version": "0.1.1",
