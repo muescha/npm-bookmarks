@@ -22,12 +22,12 @@ const Footer = () => (
       <Credits>
         Project by{' '}
         <a
-          href="https://github.com/cardiv"
+          href="https://github.com/crstnio"
           target="_blank"
           rel="noopener noreferrer"
         >
           <Icon icon={faGithub} />
-          cardiv
+          crstnio
         </a>{' '}
         | Built with
         {` `}
