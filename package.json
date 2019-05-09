@@ -1,8 +1,8 @@
 {
-  "name": "npm.cardiv.de",
+  "name": "NPM Bookmarks",
   "private": true,
   "description": "Personal NPM bookmark site.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Carsten Jaksch <jaksch.carsten@gmail.com>",
   "dependencies": {
     "@cardiv/gatsby-source-apiserver": "^2.1.0",
@@ -47,9 +47,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cardiv/npm.cardiv.de"
+    "url": "https://github.com/crstnio/npm-bookmarks"
   },
   "bugs": {
-    "url": "https://github.com/cardiv/npm.cardiv.de/issues"
+    "url": "https://github.com/crstnio/npm-bookmarks/issues"
   }
 }
