@@ -2,9 +2,9 @@ const packages = require(`./src/packages.json`)
 
 module.exports = {
   siteMetadata: {
-    title: `npm.cardiv.de`,
+    title: `npm-bookmarks`,
     description: `Personal NPM favorites library.`,
-    author: `@cardiv`,
+    author: `@crstnio`,
     packages: packages,
   },
   plugins: [
@@ -39,7 +39,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `npm.cardiv.de`,
+        name: `npm-bookmarks`,
         short_name: `npm`,
         start_url: `/`,
         background_color: `#2196F3`,
