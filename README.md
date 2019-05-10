@@ -4,6 +4,10 @@ This is a bookmark site for personal NPM favorites, built with [Gatsby](https://
 
 It features search and tags to filter available packages – these are fetched from the [npms.io](https://npms.io/) API.
 
+## Demo
+
+https://npm-bookmarks.netlify.com
+
 ## Manage favorites
 
 Packages are added to `src/packages.json` including assigned tags.
